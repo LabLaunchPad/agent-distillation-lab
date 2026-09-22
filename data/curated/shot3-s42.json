@@ -1,0 +1,67 @@
+{
+ "artifact": {
+  "artifact_id": "ses_f3546fd31ffeSYD8WK8ULAhE1r:file:7dd8f8ad5574",
+  "content_redacted": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Verde Fork</title>\n  <style>\n    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }\n    body { font-family: Georgia, 'Times New Roman', serif; color: #2c3e2d; line-height: 1.6; }\n    header { background: #1a3c1a; color: #f0e6d3; padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; }\n    header h1 { font-size: 1.8rem; letter-spacing: 0.05em; }\n    nav a { color: #f0e6d3; text-decoration: none; margin-left: 1.5rem; font-size: 1rem; }\n    nav a:hover { color: #a8d8a8; }\n    main { max-width: 960px; margin: 0 auto; padding: 2rem 5%; }\n    h1 { font-size: clamp(1.5rem, 4vw, 2.5rem); margin-bottom: 1rem; }\n    .menu-section, .contact-section { margin-bottom: 2.5rem; }\n    .menu-item { display: flex; justify-content: space-between; padding: 0.75rem 0; border-bottom: 1px solid #d4c8b8; }\n    .menu-item .name { font-weight: bold; }\n    .menu-item .price { color: #6b7f6b; }\n    .contact-section p, .contact-section a { color: #4a5a4a; text-decoration: none; }\n    .contact-section a:hover { text-decoration: underline; }\n    footer { background: #f0e6d3; text-align: center; padding: 1.5rem; font-size: 0.85rem; color: #6b7f6b; }\n    @media (max-width: 600px) {\n      header { flex-direction: column; gap: 0.75rem; text-align: center; }\n      nav a { margin: 0 0.75rem; }\n      .menu-item { flex-direction: column; gap: 0.25rem; }\n    }\n  </style>\n</head>\n<body>\n  <header>\n    <h1>Verde Fork</h1>\n    <nav>\n      <a href=\"#menu\">Menu</a>\n      <a href=\"#contact\">Contact</a>\n      <a href=\"#about\">About</a>\n    </nav>\n  </header>\n\n  <main>\n    <h1>Farm-to-Table Dining in the Heart of the City</h1>\n\n    <section class=\"menu-section\" id=\"menu\">\n      <h2>Our Menu</h2>\n      <div class=\"menu-item\">\n        <span class=\"name\">Roasted Beet Salad</span>\n        <span class=\"price\">$14</span>\n      </div>\n      <div class=\"menu-item\">\n        <span class=\"name\">Herb-Crusted Lamb</span>\n        <span class=\"price\">$28</span>\n      </div>\n      <div class=\"menu-item\">\n        <span class=\"name\">Seasonal Vegetable Tart</span>\n        <span class=\"price\">$18</span>\n      </div>\n    </section>\n\n    <section class=\"contact-section\" id=\"contact\">\n      <h2>Contact</h2>\n      <p>123 Garden Lane, Portland, OR 97201</p>\n      <p><a href=\"tel:+15035551234\">(503) 555-1234</a></p>\n      <p><a href=\"mailto:[REDACTED_EMAIL]\">[REDACTED_EMAIL]</a></p>\n      <p>Open Tue\u2013Sun, 5\u201310 PM</p>\n    </section>\n  </main>\n\n  <footer>\n    <p>&copy; 2026 Verde Fork. All rights reserved.</p>\n  </footer>\n</body>\n</html>",
+  "kind": "file",
+  "provenance": {
+   "license": "MIT",
+   "source": "opencode"
+  },
+  "schema_version": "1.0",
+  "sha256": "7dd8f8ad5574cc22e9af2c3b49ba3f74edaaa2c97bd041751eabac3ad429dd74",
+  "trajectory_id": "ses_f3546fd31ffeSYD8WK8ULAhE1r"
+ },
+ "eval": {
+  "artifact_sha256": "2e7bddb64ce7e47781e63a636e06d6f6dc22834cdd9bba5c9c3ca991ab5a0f45",
+  "scores": {
+   "a11y": [
+    4,
+    4
+   ],
+   "functional": [
+    6,
+    6
+   ],
+   "responsive": [
+    3,
+    3
+   ]
+  },
+  "verdict": "GOLD"
+ },
+ "fingerprint": {
+  "opencode_version": "1.18.32",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.15",
+  "seed": 42,
+  "sha256": "cd07c18f64bfa58d"
+ },
+ "opencode_version": "1.18.32",
+ "permissions": [],
+ "renders": {
+  "1440": {
+   "bytes": 43533,
+   "file": "shot3-s42-1440.png",
+   "sha256": "28864f226e3ec33be12dbdcaef1aa5a330f56d36e8189d750d5a6e4604ec409e"
+  },
+  "375": {
+   "bytes": 29745,
+   "file": "shot3-s42-375.png",
+   "sha256": "f7a1f57552f28ec8f811c4d7e63f7bd302bd1a0bc9ca762b6e2edaab4bce11f1"
+  },
+  "768": {
+   "bytes": 37003,
+   "file": "shot3-s42-768.png",
+   "sha256": "2c691e1815a50ef1f963cf92532fb39c4b42a3a4431fba3171eb57f82fe055a7"
+  }
+ },
+ "seed": 42,
+ "session_id": "ses_f3546fd31ffeSYD8WK8ULAhE1r",
+ "task_id": "restaurant-landing:s42",
+ "teacher": "opencode/ling-3.0-flash-fin-free",
+ "trajectory_bytes": 6576,
+ "trajectory_sha256": "daafa463a46d6c296c658f50f530ad0d69725fb1a035c604159418c352d523b7",
+ "workspace_files": [
+  "index.html"
+ ]
+}

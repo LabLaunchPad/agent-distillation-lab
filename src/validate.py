@@ -58,3 +58,8 @@ def validate_artifact(obj):
 def validate_provenance(obj):
     _check(obj, _load("provenance.v1.json"))
     return True
+
+
+def validate_eval(obj):
+    _check(obj, _load("eval.v1.json"))
+    return True
