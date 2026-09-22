@@ -1,0 +1,34 @@
+{
+ "artifact_sha256": "2e7bddb64ce7e47781e63a636e06d6f6dc22834cdd9bba5c9c3ca991ab5a0f45",
+ "checks": {
+  "note": "see src/verify.py; full checks in Shot 3 trajectory run"
+ },
+ "fingerprint": {
+  "opencode_version": "1.18.32",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.15",
+  "seed": 42,
+  "sha256": "cd07c18f64bfa58d"
+ },
+ "fixture": false,
+ "note": "real Shot 3 run, scores as verified",
+ "scores": {
+  "a11y": [
+   4,
+   4
+  ],
+  "functional": [
+   6,
+   6
+  ],
+  "responsive": [
+   3,
+   3
+  ]
+ },
+ "seed": 42,
+ "session_id": "ses_f3546fd31ffeSYD8WK8ULAhE1r",
+ "task_id": "restaurant-landing:s42",
+ "teacher": "opencode/ling-3.0-flash-fin-free",
+ "verdict": "GOLD"
+}

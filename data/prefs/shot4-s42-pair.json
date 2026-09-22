@@ -1,0 +1,16 @@
+{
+ "chosen": {
+  "artifact_sha256": "2e7bddb64ce7e47781e63a636e06d6f6dc22834cdd9bba5c9c3ca991ab5a0f45",
+  "teacher": "opencode/ling-3.0-flash-fin-free",
+  "verdict": "GOLD"
+ },
+ "criterion": "verify verdict GOLD>SILVER>FAIL, rule-based",
+ "prompt": "Restaurant name: Verde Fork. Build a single-file static restaurant landing page named index.html in the current directory. Requirements: <html lang>, <title>, viewport meta, header with nav (2+ links), main with h1 + menu section (3+ items) + contact section, footer, one <style> block with fluid CSS (max-width, flexible units) and one media query, every <img> (if any) with alt text. No external deps, no JS frameworks. Keep it small (<15KB).",
+ "rejected": {
+  "artifact_sha256": "98842cd604ebf3ebd90ca98e79c898490b66c4d51fda491d9a7762a098b2ac3c",
+  "teacher": "fixture/fail-variant",
+  "verdict": "FAIL"
+ },
+ "schema_version": "1.0",
+ "task_id": "restaurant-landing:s42"
+}

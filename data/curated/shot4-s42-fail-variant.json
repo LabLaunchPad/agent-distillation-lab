@@ -1,0 +1,103 @@
+{
+ "artifact_sha256": "98842cd604ebf3ebd90ca98e79c898490b66c4d51fda491d9a7762a098b2ac3c",
+ "checks": {
+  "a11y": [
+   {
+    "detail": "",
+    "name": "html_lang",
+    "passed": false
+   },
+   {
+    "detail": "1 imgs, 1 missing alt",
+    "name": "img_alt",
+    "passed": false
+   },
+   {
+    "detail": "[]",
+    "name": "heading_order",
+    "passed": true
+   },
+   {
+    "detail": "0 links",
+    "name": "links_named",
+    "passed": true
+   }
+  ],
+  "functional": [
+   {
+    "detail": "86 bytes",
+    "name": "parses",
+    "passed": true
+   },
+   {
+    "detail": "",
+    "name": "has_title",
+    "passed": false
+   },
+   {
+    "detail": "headings=[]",
+    "name": "has_h1",
+    "passed": false
+   },
+   {
+    "detail": "0 links",
+    "name": "nav_links>=2",
+    "passed": false
+   },
+   {
+    "detail": "main=False headings=0",
+    "name": "has_main_sections",
+    "passed": false
+   },
+   {
+    "detail": "header=False footer=False",
+    "name": "has_header_footer",
+    "passed": false
+   }
+  ],
+  "responsive": [
+   {
+    "detail": "method=static viewport_meta=False fluid=False media_q=False",
+    "name": "viewport_375",
+    "passed": false
+   },
+   {
+    "detail": "method=static viewport_meta=False fluid=False media_q=False",
+    "name": "viewport_768",
+    "passed": false
+   },
+   {
+    "detail": "method=static viewport_meta=False fluid=False media_q=False",
+    "name": "viewport_1440",
+    "passed": false
+   }
+  ]
+ },
+ "fingerprint": {
+  "opencode_version": "1.18.32",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.15",
+  "seed": 42,
+  "sha256": "cd07c18f64bfa58d"
+ },
+ "fixture": true,
+ "note": "labeled fixture html (fail.html), real verify run",
+ "scores": {
+  "a11y": [
+   2,
+   4
+  ],
+  "functional": [
+   1,
+   6
+  ],
+  "responsive": [
+   0,
+   3
+  ]
+ },
+ "seed": 42,
+ "task_id": "restaurant-landing:s42",
+ "teacher": "fixture/fail-variant",
+ "verdict": "FAIL"
+}
