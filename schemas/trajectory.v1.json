@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "trajectory.v1",
+  "type": "object",
+  "required": ["session_id", "schema_version", "provider", "model", "messages", "tool_calls", "resolved", "provenance"],
+  "properties": {
+    "session_id": {"type": "string"},
+    "schema_version": {"type": "string", "const": "1.0"},
+    "provider": {"type": "string"},
+    "model": {"type": "string"},
+    "messages": {"type": "array", "items": {"type": "object"}},
+    "tool_calls": {"type": "array", "items": {"type": "object"}},
+    "test_result": {"type": ["object", "null"]},
+    "resolved": {"type": ["boolean", "null"]},
+    "provenance": {
+      "type": "object",
+      "required": ["source", "license"],
+      "properties": {
+        "source": {"type": "string"},
+        "license": {"type": "string"}
+      }
+    }
+  }
+}
